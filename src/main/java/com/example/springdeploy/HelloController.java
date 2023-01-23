@@ -17,7 +17,7 @@ public class HelloController {
         System.out.println(message);
         return "Holaaa mundo que tal vamos!!";
     }
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
 
         return """
@@ -34,7 +34,7 @@ public class HelloController {
                         <title>Hola mundo</title>
                       </head>
                       <body>
-                        <h1>TE AMO MUCHO! MJ</h1>
+                        <h1>Hola Mundo Desde Spring Boot</h1>
                         
                         <a class="btn btn-primary" href="http://www.google.com"> Google </a>
                     
